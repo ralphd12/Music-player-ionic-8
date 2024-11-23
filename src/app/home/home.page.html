@@ -17,7 +17,6 @@
       navigation="true"
     >
     @for(i of fonds;track $index){
-
       <swiper-slide>
         <div class="carrousel">
           <img src="../../assets/icon/{{i}}" class="rounded-image" alt="Chanson">
@@ -43,14 +42,13 @@
   <ion-grid>
     <ion-row class="populaires">
       @for(i of fonds;track $index){
-      <ion-col size=4 size-md=4 size-sm=4 size-md=2 size-lg=2 size-xl=2 >
+      <ion-col size="4" size-md="4" size-sm="4" size-md="2" size-lg="2" size-xl="2">
         <div class="image-container">
-          <img  src="../../assets/icon/{{i}} "  alt="Image" />
+          <img src="../../assets/icon/{{i}}" class="rounded-image" alt="Image" />
         </div>
       </ion-col>
     }
     </ion-row>
   </ion-grid>
-  
 
 </ion-content>

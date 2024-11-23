@@ -12,7 +12,7 @@
   
   <ion-list>
     @for(i of Musiques;track $index){
-      @if(i.artistName === album.artistName){
+      @if(i.albumId === album.id){
     <ion-item  (click)="selectionMusique(i)">
       
       <ion-thumbnail slot="start">

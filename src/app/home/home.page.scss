@@ -83,3 +83,74 @@
 .scroll-btn.right {
   right: 0;
 }
+/* Assurez-vous que les images ont une taille uniforme */
+.rounded-image {
+  width: 100%;  /* S'adapte à la taille du conteneur */
+  height: auto; /* Maintient les proportions de l'image */
+  object-fit: cover; /* Remplissage de l'image sans déformation */
+  border-radius: 8px; /* Optionnel, si vous voulez arrondir les coins de l'image */
+}
+
+/* Ajoutez des styles pour garantir que le carrousel prend la même taille */
+.carrousel {
+  position: relative;
+  width: 100%;
+  height: 400px; /* Ajustez la hauteur du carrousel */
+  overflow: hidden;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  max-width: 100%; /* Ne dépasse pas la largeur du swiper */
+  height: 100%; /* Ajuste la hauteur de l'image */
+  object-fit: cover; /* Remplissage sans déformation */
+}
+/* Assurez-vous que les images des artistes populaires ont la même taille que celles du swiper */
+.rounded-image {
+  width: 100%;  /* S'adapte à la taille du conteneur */
+  height: auto; /* Maintient les proportions de l'image */
+  object-fit: cover; /* Remplissage de l'image sans déformation */
+  border-radius: 8px; /* Optionnel, si vous voulez arrondir les coins de l'image */
+}
+
+/* Style pour l'image des artistes populaires */
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 180px;  /* Ajustez cette valeur pour définir la hauteur de l'image */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Pour les colonnes des artistes populaires */
+.ion-grid .populaires {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;  /* Espacement entre les colonnes */
+}
+
+/* Assurez-vous que les images sont de la même taille et ne déforment pas */
+.ion-col {
+  display: flex;
+  justify-content: center;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px; /* Optionnel, si vous voulez arrondir les coins */
+}

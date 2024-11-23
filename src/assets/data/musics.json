@@ -2,21 +2,205 @@
   {
     "id": 1,
     "albumId": 1,
-    "title": "Black.mp3",
+    "title": "1.mp3",
     "artistName": "mbole",
     "category": "Pop"
   },
   {
     "id": 2,
     "albumId": 1,
-    "title": "BlackM_Lalégende.mp3",
+    "title": "2.mp3",
     "artistName": "mbole",
     "category": "Rock"
   },
   {
     "id": 3,
     "albumId": 2,
-    "title": "Jegardelesourire.mp3",
+    "title": "3.mp3",
+    "artistName": "bikutsi",
+    "category": "Jazz"
+  },
+  {
+    "id": 4,
+    "albumId": 1,
+    "title": "4.mp3",
+    "artistName": "mbole",
+    "category": "Pop"
+  },
+  {
+    "id": 5,
+    "albumId": 1,
+    "title": "5.mp3",
+    "artistName": "mbole",
+    "category": "Rock"
+  },
+  {
+    "id": 6,
+    "albumId": 2,
+    "title": "6.mp3",
+    "artistName": "bikutsi",
+    "category": "Jazz"
+  },
+  {
+    "id": 7,
+    "albumId": 1,
+    "title": "7.mp3",
+    "artistName": "mbole",
+    "category": "Pop"
+  },
+  {
+    "id": 8,
+    "albumId": 1,
+    "title": "8.mp3",
+    "artistName": "mbole",
+    "category": "Rock"
+  },
+  {
+    "id": 9,
+    "albumId": 2,
+    "title": "9.mp3",
+    "artistName": "bikutsi",
+    "category": "Jazz"
+  },
+  {
+    "id": 10,
+    "albumId": 1,
+    "title": "1.mp3",
+    "artistName": "mbole",
+    "category": "Pop"
+  },
+  {
+    "id": 11,
+    "albumId": 1,
+    "title": "11.mp3",
+    "artistName": "mbole",
+    "category": "Rock"
+  },
+  {
+    "id": 12,
+    "albumId": 2,
+    "title": "12.mp3",
+    "artistName": "bikutsi",
+    "category": "Jazz"
+  },
+  {
+    "id": 13,
+    "albumId": 1,
+    "title": "13.mp3",
+    "artistName": "mbole",
+    "category": "Pop"
+  },
+  {
+    "id": 14,
+    "albumId": 1,
+    "title": "14.mp3",
+    "artistName": "mbole",
+    "category": "Rock"
+  },
+  {
+    "id": 15,
+    "albumId": 2,
+    "title": "15.mp3",
+    "artistName": "bikutsi",
+    "category": "Jazz"
+  },{
+    "id": 16,
+    "albumId": 1,
+    "title": "16.mp3",
+    "artistName": "mbole",
+    "category": "Pop"
+  },
+  {
+    "id": 17,
+    "albumId": 1,
+    "title": "17.mp3",
+    "artistName": "mbole",
+    "category": "Rock"
+  },
+  {
+    "id": 18,
+    "albumId": 2,
+    "title": "18.mp3",
+    "artistName": "bikutsi",
+    "category": "Jazz"
+  },{
+    "id": 19,
+    "albumId": 1,
+    "title": "19.mp3",
+    "artistName": "mbole",
+    "category": "Pop"
+  },
+  {
+    "id": 20,
+    "albumId": 1,
+    "title": "17.mp3",
+    "artistName": "mbole",
+    "category": "Rock"
+  },
+  {
+    "id": 21,
+    "albumId": 2,
+    "title": "21.mp3",
+    "artistName": "bikutsi",
+    "category": "Jazz"
+  },{
+    "id": 22,
+    "albumId": 1,
+    "title": "22.mp3",
+    "artistName": "mbole",
+    "category": "Pop"
+  },
+  {
+    "id": 23,
+    "albumId": 1,
+    "title": "23.mp3",
+    "artistName": "mbole",
+    "category": "Rock"
+  },
+  {
+    "id": 24,
+    "albumId": 2,
+    "title": "24.mp3",
+    "artistName": "bikutsi",
+    "category": "Jazz"
+  },{
+    "id": 25,
+    "albumId": 1,
+    "title": "25.mp3",
+    "artistName": "mbole",
+    "category": "Pop"
+  },
+  {
+    "id": 26,
+    "albumId": 1,
+    "title": "26.mp3",
+    "artistName": "mbole",
+    "category": "Rock"
+  },
+  {
+    "id": 27,
+    "albumId": 2,
+    "title": "27.mp3",
+    "artistName": "bikutsi",
+    "category": "Jazz"
+  },{
+    "id": 28,
+    "albumId": 1,
+    "title": "28.mp3",
+    "artistName": "mbole",
+    "category": "Pop"
+  },
+  {
+    "id": 29,
+    "albumId": 1,
+    "title": "29.mp3",
+    "artistName": "mbole",
+    "category": "Rock"
+  },
+  {
+    "id": 30,
+    "albumId": 2,
+    "title": "30.mp3",
     "artistName": "bikutsi",
     "category": "Jazz"
   }
