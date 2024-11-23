@@ -2,30 +2,42 @@
   <ion-toolbar>
     <ion-title class="center-title">{{ album.albumName }}</ion-title>
     <ion-buttons slot="start">
-      <ion-back-button defaultHref="onglets/albums"></ion-back-button>
+      <ion-back-button></ion-back-button>
     </ion-buttons>
   </ion-toolbar>
 </ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-searchbar class="custom-searchbar"  placeholder="Rechercher une musique..."></ion-searchbar>
+  <ion-searchbar [(ngModel)]="searchText" debounce="500" (ionInput)="onSearch()" placeholder="Rechercher..."></ion-searchbar>
   
   <ion-list>
-    @for(i of Musiques;track $index){
-      @if(i.albumId === album.id){
-    <ion-item  (click)="selectionMusique(i)">
-      
-      <ion-thumbnail slot="start">
-        <img src="../../assets/icon/{{album.image}} " alt="">
-      </ion-thumbnail>
-      <ion-label>
-        <h1>{{i.artistName}}</h1>
-        <h3>{{i.title}}</h3>
-      </ion-label>
-      <ion-icon slot="end" name="heart" class="red-heart"></ion-icon>
+    @for(i of filteredItems;track $index){
+      <ion-item (click)="selectionMusique(i)">
+        <ion-thumbnail slot="start">
+          <img src="../../assets/icon/{{album.image}} " alt="">
+        </ion-thumbnail>
+        <ion-label>
+          <h1>{{i.artistName}}</h1>
+          <h3>{{i.title}}</h3>
+        </ion-label>
+        <ion-icon slot="end" name="heart" (click)="toggleFavorite(i)" [color]="isFavorite(i) ? 'danger' : ''"></ion-icon>
+      </ion-item>
+    }
+  </ion-list>
 
-    </ion-item>
-  }
-  }
+  <ion-list>
+    @for(i of Musiques;track $index){
+      @if(i.albumId === album.id){ 
+        <ion-item (click)="selectionMusique(i)">
+          <ion-thumbnail slot="start">
+            <img src="../../assets/icon/{{album.image}} " alt="">
+          </ion-thumbnail>
+          <ion-label>
+            <h1>{{i.artistName}}</h1>
+            <h3>{{i.title}}</h3>
+          </ion-label>
+          <ion-icon slot="end" name="heart" (click)="toggleFavorite(i)" [color]="isFavorite(i) ? 'danger' : ''"></ion-icon>
+        </ion-item>
+      }
+    }
   </ion-list>
 </ion-content>

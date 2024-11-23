@@ -5,9 +5,6 @@
 </ion-header>
 
 <ion-content>
-  <!-- Barre de recherche -->
-  <ion-searchbar class="custom-searchbar" (ionInput)="filterAlbums($event)" placeholder="Rechercher un album..."></ion-searchbar>
-
   <!-- Liste des albums -->
   <ion-list>
     @for(i of albums_application; track $index) {

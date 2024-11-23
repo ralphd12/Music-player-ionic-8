@@ -26,7 +26,7 @@ export class AppComponent implements OnInit {
     const mp3Files = files.filter(file => file.name.endsWith('.mp3')); // Utiliser file.name
 
       // Afficher les fichiers MP3 trouvés
-      console.log('Fichiers MP3 trouvés :', mp3Files);
+      // console.log('Fichiers MP3 trouvés :', mp3Files);
 
 
 

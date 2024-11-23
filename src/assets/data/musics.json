@@ -1,14 +1,14 @@
 [
   {
     "id": 1,
-    "albumId": 1,
+    "albumId": 3,
     "title": "1.mp3",
     "artistName": "mbole",
     "category": "Pop"
   },
   {
     "id": 2,
-    "albumId": 1,
+    "albumId": 4,
     "title": "2.mp3",
     "artistName": "mbole",
     "category": "Rock"
@@ -22,14 +22,14 @@
   },
   {
     "id": 4,
-    "albumId": 1,
+    "albumId": 4,
     "title": "4.mp3",
     "artistName": "mbole",
     "category": "Pop"
   },
   {
     "id": 5,
-    "albumId": 1,
+    "albumId": 3,
     "title": "5.mp3",
     "artistName": "mbole",
     "category": "Rock"
@@ -50,7 +50,7 @@
   },
   {
     "id": 8,
-    "albumId": 1,
+    "albumId": 4,
     "title": "8.mp3",
     "artistName": "mbole",
     "category": "Rock"
@@ -64,7 +64,7 @@
   },
   {
     "id": 10,
-    "albumId": 1,
+    "albumId": 3,
     "title": "1.mp3",
     "artistName": "mbole",
     "category": "Pop"
@@ -78,14 +78,14 @@
   },
   {
     "id": 12,
-    "albumId": 2,
+    "albumId": 4,
     "title": "12.mp3",
     "artistName": "bikutsi",
     "category": "Jazz"
   },
   {
     "id": 13,
-    "albumId": 1,
+    "albumId": 3,
     "title": "13.mp3",
     "artistName": "mbole",
     "category": "Pop"
@@ -105,14 +105,14 @@
     "category": "Jazz"
   },{
     "id": 16,
-    "albumId": 1,
+    "albumId": 4,
     "title": "16.mp3",
     "artistName": "mbole",
     "category": "Pop"
   },
   {
     "id": 17,
-    "albumId": 1,
+    "albumId": 3,
     "title": "17.mp3",
     "artistName": "mbole",
     "category": "Rock"
@@ -132,20 +132,20 @@
   },
   {
     "id": 20,
-    "albumId": 1,
+    "albumId": 2,
     "title": "17.mp3",
     "artistName": "mbole",
     "category": "Rock"
   },
   {
     "id": 21,
-    "albumId": 2,
+    "albumId": 4,
     "title": "21.mp3",
     "artistName": "bikutsi",
     "category": "Jazz"
   },{
     "id": 22,
-    "albumId": 1,
+    "albumId": 3,
     "title": "22.mp3",
     "artistName": "mbole",
     "category": "Pop"
@@ -165,14 +165,14 @@
     "category": "Jazz"
   },{
     "id": 25,
-    "albumId": 1,
+    "albumId": 4,
     "title": "25.mp3",
     "artistName": "mbole",
     "category": "Pop"
   },
   {
     "id": 26,
-    "albumId": 1,
+    "albumId": 3,
     "title": "26.mp3",
     "artistName": "mbole",
     "category": "Rock"
@@ -192,14 +192,14 @@
   },
   {
     "id": 29,
-    "albumId": 1,
+    "albumId": 3,
     "title": "29.mp3",
     "artistName": "mbole",
     "category": "Rock"
   },
   {
     "id": 30,
-    "albumId": 2,
+    "albumId": 4,
     "title": "30.mp3",
     "artistName": "bikutsi",
     "category": "Jazz"
