@@ -1,0 +1,16 @@
+
+.custom-searchbar {
+  --border-radius: 10px; 
+  --background: #f9f9f9; 
+  --border-radius: 10px;       
+  border: 0.5px solid transparent; 
+  transition: border-color 0.3s ease;
+
+  &.searchbar-has-focus {
+    border-color: #31ac13; 
+  }
+} 
+.red-heart {
+  color: red;                 
+  font-size: 18px;       
+}

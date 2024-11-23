@@ -1,0 +1,129 @@
+/* Style global */
+ion-content {
+  --background: #f4f4f4;
+}
+
+/* Style pour la barre d'en-tête */
+ion-toolbar {
+  --background: #333;
+}
+
+.center-title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Card contenant l'image */
+ion-card.box {
+  --border-radius: 10px;
+  --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+ion-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Section de titre et nom de l'artiste */
+.titre_nom {
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.separator {
+  width: 50px;
+  margin: 10px auto;
+  border: 1px solid #ddd;
+}
+
+.titre {
+  font-size: 18px;
+  color: #666;
+}
+
+/* Style pour le range (barre de progression) */
+ion-range {
+  width: 80%;
+  margin: 20px auto;
+}
+
+/* Alignement des éléments temporels (00:00, 04:05) */
+.horizontal-alignment {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 14px;
+  color: #333;
+}
+
+.first-word,
+.second-word {
+  font-weight: bold;
+}
+
+/* Style pour les boutons de contrôle */
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+
+
+.circle-button:hover {
+  background-color: #ffb700;
+}
+
+.circle-button ion-icon {
+  height: 50px;
+  color: white; /* Icônes en blanc */
+}
+
+/* Bouton Play-Pause spécifique */
+ion-button[color='warning'] {
+  background-color: #ffcc00;
+  --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Ajustements pour un affichage responsive */
+@media (max-width: 767px) {
+  .titre_nom {
+    padding: 10px;
+  }
+
+  .name {
+    font-size: 20px;
+  }
+
+  .titre {
+    font-size: 16px;
+  }
+
+  .horizontal-alignment {
+    width: 90%;
+  }
+
+  .button-container {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .circle-button {
+    width: 40px;
+    height: 40px;
+  }
+}

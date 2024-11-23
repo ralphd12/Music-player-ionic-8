@@ -1,0 +1,36 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title class="center-title">Albums</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <!-- Barre de recherche -->
+  <ion-searchbar class="custom-searchbar" (ionInput)="filterAlbums($event)" placeholder="Rechercher un album..."></ion-searchbar>
+
+  <!-- Liste des albums -->
+  <ion-list>
+    @for(i of albums_application; track $index) {
+    <ion-item (click)="selectionAlbum(i)">
+      <!-- Miniature de l'album -->
+      <ion-thumbnail slot="start">
+        <img src="../../assets/icon/{{i.image}}" alt="Album">
+      </ion-thumbnail>
+
+      <!-- Informations de l'album -->
+      <ion-label>
+        <h2>{{i.albumName}}</h2>
+        <p>{{i.artistName}}</p>
+      </ion-label>
+
+      <!-- Icône favoris -->
+      <ion-icon slot="end" name="heart-outline" class="heart-icon" (click)="toggleFavorite(i)"></ion-icon>
+
+      <!-- Temps de la chanson -->
+      <ion-label slot="end" class="duration">
+        {{i.duration}}
+      </ion-label>
+    </ion-item>
+    }
+  </ion-list>
+</ion-content>

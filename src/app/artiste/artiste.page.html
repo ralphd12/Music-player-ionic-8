@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title class="center-title">{{ album.albumName }}</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="onglets/albums"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-searchbar class="custom-searchbar"  placeholder="Rechercher une musique..."></ion-searchbar>
+  
+  <ion-list>
+    @for(i of Musiques;track $index){
+      @if(i.artistName === album.artistName){
+    <ion-item  (click)="selectionMusique(i)">
+      
+      <ion-thumbnail slot="start">
+        <img src="../../assets/icon/{{album.image}} " alt="">
+      </ion-thumbnail>
+      <ion-label>
+        <h1>{{i.artistName}}</h1>
+        <h3>{{i.title}}</h3>
+      </ion-label>
+      <ion-icon slot="end" name="heart" class="red-heart"></ion-icon>
+
+    </ion-item>
+  }
+  }
+  </ion-list>
+</ion-content>

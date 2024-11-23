@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "artistName": "mbole",
+    "albumName": "Mbole",
+    "image": "mbole.jpeg"
+  },
+  {
+    "id": 2,
+    "artistName": "bikutsi",
+    "albumName": "Bikutsi",
+    "image": "bikutsi.jpg"
+  },
+  {
+    "id": 3,
+    "artistName": "makossa",
+    "albumName": "Makossa",
+    "image": "kossa.webp"
+  },
+  {
+    "id": 4,
+    "artistName": "bensikin",
+    "albumName": "Bensikin",
+    "image": "sikin.jpg"
+  }
+]

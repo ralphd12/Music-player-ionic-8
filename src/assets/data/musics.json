@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "albumId": 1,
+    "title": "Black.mp3",
+    "artistName": "Artiste A",
+    "category": "Pop"
+  },
+  {
+    "id": 2,
+    "albumId": 1,
+    "title": "BlackM_Lalégende.mp3",
+    "artistName": "Artiste A",
+    "category": "Rock"
+  },
+  {
+    "id": 3,
+    "albumId": 2,
+    "title": "Jegardelesourire.mp3",
+    "artistName": "Artiste B",
+    "category": "Jazz"
+  }
+]
