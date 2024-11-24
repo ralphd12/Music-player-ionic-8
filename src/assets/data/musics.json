@@ -3,118 +3,118 @@
     "id": 1,
     "albumId": 3,
     "title": "1.mp3",
-    "artistName": "mbole",
+    "artistName": "TOwnhouse Woods",
     "category": "Pop"
   },
   {
     "id": 2,
     "albumId": 4,
     "title": "2.mp3",
-    "artistName": "mbole",
+    "artistName": "Color Out",
     "category": "Rock"
   },
   {
     "id": 3,
     "albumId": 2,
     "title": "3.mp3",
-    "artistName": "bikutsi",
+    "artistName": "Arrow Olive",
     "category": "Jazz"
   },
   {
     "id": 4,
     "albumId": 4,
     "title": "4.mp3",
-    "artistName": "mbole",
+    "artistName": "All my friends hat...",
     "category": "Pop"
   },
   {
     "id": 5,
     "albumId": 3,
     "title": "5.mp3",
-    "artistName": "mbole",
+    "artistName": "singleton",
     "category": "Rock"
   },
   {
     "id": 6,
     "albumId": 2,
     "title": "6.mp3",
-    "artistName": "bikutsi",
+    "artistName": "alfonso hugo",
     "category": "Jazz"
   },
   {
     "id": 7,
     "albumId": 1,
     "title": "7.mp3",
-    "artistName": "mbole",
+    "artistName": "ANtarticbreeze",
     "category": "Pop"
   },
   {
     "id": 8,
     "albumId": 4,
     "title": "8.mp3",
-    "artistName": "mbole",
+    "artistName": "color out",
     "category": "Rock"
   },
   {
     "id": 9,
     "albumId": 2,
     "title": "9.mp3",
-    "artistName": "bikutsi",
+    "artistName": "Anna craig",
     "category": "Jazz"
   },
   {
     "id": 10,
     "albumId": 3,
-    "title": "1.mp3",
-    "artistName": "mbole",
+    "title": "31.mp3",
+    "artistName": "quesabe",
     "category": "Pop"
   },
   {
     "id": 11,
     "albumId": 1,
     "title": "11.mp3",
-    "artistName": "mbole",
+    "artistName": "melanie ungar",
     "category": "Rock"
   },
   {
     "id": 12,
-    "albumId": 4,
+    "albumId": 2,
     "title": "12.mp3",
-    "artistName": "bikutsi",
+    "artistName": "axl arth",
     "category": "Jazz"
   },
   {
     "id": 13,
     "albumId": 3,
     "title": "13.mp3",
-    "artistName": "mbole",
+    "artistName": "wordsmith",
     "category": "Pop"
   },
   {
     "id": 14,
     "albumId": 1,
     "title": "14.mp3",
-    "artistName": "mbole",
+    "artistName": "seth power",
     "category": "Rock"
   },
   {
     "id": 15,
     "albumId": 2,
     "title": "15.mp3",
-    "artistName": "bikutsi",
+    "artistName": "the tanguerie club",
     "category": "Jazz"
   },{
     "id": 16,
     "albumId": 4,
     "title": "16.mp3",
-    "artistName": "mbole",
+    "artistName": "michael McEachern",
     "category": "Pop"
   },
   {
     "id": 17,
     "albumId": 3,
     "title": "17.mp3",
-    "artistName": "mbole",
+    "artistName": "Makossa",
     "category": "Rock"
   },
   {
@@ -139,7 +139,7 @@
   },
   {
     "id": 21,
-    "albumId": 4,
+    "albumId": 2,
     "title": "21.mp3",
     "artistName": "bikutsi",
     "category": "Jazz"
@@ -147,7 +147,7 @@
     "id": 22,
     "albumId": 3,
     "title": "22.mp3",
-    "artistName": "mbole",
+    "artistName": "Makossa",
     "category": "Pop"
   },
   {
@@ -174,7 +174,7 @@
     "id": 26,
     "albumId": 3,
     "title": "26.mp3",
-    "artistName": "mbole",
+    "artistName": "Makossa",
     "category": "Rock"
   },
   {
@@ -194,12 +194,12 @@
     "id": 29,
     "albumId": 3,
     "title": "29.mp3",
-    "artistName": "mbole",
+    "artistName": "Makossa",
     "category": "Rock"
   },
   {
     "id": 30,
-    "albumId": 4,
+    "albumId": 2,
     "title": "30.mp3",
     "artistName": "bikutsi",
     "category": "Jazz"

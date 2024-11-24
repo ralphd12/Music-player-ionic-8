@@ -49,7 +49,8 @@ toggleFavorite(album: any) {
   
 selectionAlbum(album: any) {
   localStorage.setItem('selectedAlbum', JSON.stringify(album)); // Enregistrer l'album sélectionné dans le localStorage
-  this.router.navigate(['onglets/artiste/']);
+  this.router.navigate(['onglets/artiste/',album.id]);
+
   // this.router.navigate(['onglets/artiste/'], { state: { album: { ...album } } }); // Écraser l'ancien état avec le nouvel album
   console.log(album);
 }

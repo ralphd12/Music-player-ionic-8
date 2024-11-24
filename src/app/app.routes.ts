@@ -35,5 +35,8 @@ export const routes: Routes = [
     path: 'artiste',
     loadComponent: () => import('./album-details/artiste.page').then( m => m.ArtistePage)
   },
-  
+  {
+    path: 'onglets/artiste/:id',
+    loadComponent: () => import('./album-details/artiste.page').then( m => m.ArtistePage)
+  },
 ];
