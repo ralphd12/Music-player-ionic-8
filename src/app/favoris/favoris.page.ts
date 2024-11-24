@@ -24,31 +24,30 @@ export class FavorisPage implements OnInit {
 
   ngOnInit() {
     this.loadFavorites();  
-    if (!this.isPageRefreshed && this.favorites.length === 0) { // Vérifier si la page n'a pas encore été rafraîchie et si les favoris sont vides
-      this.refreshPage(); 
-      this.isPageRefreshed = true; // Mettre à jour le drapeau après le rafraîchissement
-    }   
+    this.refreshPage();
   }
+  intervalId: any; // ID du setInterval
   refreshPage() {
-    window.location.reload(); // Actualiser la page
+    this.intervalId = setInterval(() => {
+      this.loadFavorites(); // Recharge uniquement les données
+      console.log('Données rechargées automatiquement');
+    }, 5000); // 5000 ms = 5 secondes 
   }
 
   selectionMusique(musique: any){
     this.router.navigate(['lire-musique/'],{state: {musique}});
   }
   favories:any;
-  // ... code existant ...
-loadFavorites() {
-  const favori = localStorage.getItem('favorites');
-  if (favori) {
-    this.favories = JSON.parse(favori);
-    console.log(this.favories)
+  loadFavorites() {
+    const favori = localStorage.getItem('favorites');
+    if (favori) {
+      this.favories = JSON.parse(favori);
+      console.log(this.favories)
+    }
+    // Afficher les favoris du localStorage
+    this.favorites = this.favories;  // Mettre à jour 'favorites' avec les éléments du localStorage
+    console.log('Favoris chargés:', this.favorites);  // Afficher les données dans la console
   }
-  // Afficher les favoris du localStorage
-  this.favorites = this.favories;  // Mettre à jour 'favorites' avec les éléments du localStorage
-  console.log('Favoris chargés:', this.favorites);  // Afficher les données dans la console
-}
-// ... code existant ...
   // Retirer un favori
   removeFavorite(song: Musique) {
     this.favoritesService.removeFavorite(song);

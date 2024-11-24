@@ -29,7 +29,7 @@ export class HomePage  implements OnInit {
   swiper?: Swiper;
 
   albums_application: any[] = [];
-  fonds= ["fond5.jpg","bikutsi.jpg","kossa.webp","sikin.jpg","mbole.jpeg"];
+  fonds= ["fond5.jpg","bikutsi.jpg","makossa.jpeg","sikin.jpg","mbole.jpeg"];
 
   constructor(private alertCtrl: AlertController,private dataService: DataService,private router:Router) {
       addIcons({chevronBackOutline,chevronForwardOutline,add,heartOutline});

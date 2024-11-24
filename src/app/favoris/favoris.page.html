@@ -18,7 +18,7 @@
     </ion-list>
   } 
     <ion-list>
-      @for(favorite of favorites;track $index){
+      @for(favorite of favories;track $index){
         <ion-item (click)="selectionMusique(favorite)">
           <ion-thumbnail slot="start">
             <img src="../../assets/icon/musik.webp"  alt="{{favorite.title}}">
@@ -28,11 +28,12 @@
             <h3>{{ favorite.title }}</h3>
           </ion-label>
           <ion-icon slot="end" name="heart" color="danger" (click)="removeFavorite(favorite)"></ion-icon>
+          <ion-icon slot="end" name="heart" color="danger" (click)="removeFavorite(favorite)"></ion-icon>
         </ion-item>
       }
     </ion-list>
   <ion-list>
-    @if(favorites.length === 0){ 
+    @if(favories.length === 0){ 
       <ion-item>
         <ion-label>Aucun favori trouvé.</ion-label>
       </ion-item>

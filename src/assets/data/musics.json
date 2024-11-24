@@ -114,94 +114,94 @@
     "id": 17,
     "albumId": 3,
     "title": "17.mp3",
-    "artistName": "Makossa",
+    "artistName": "seth power",
     "category": "Rock"
   },
   {
     "id": 18,
     "albumId": 2,
     "title": "18.mp3",
-    "artistName": "bikutsi",
+    "artistName": "the devil music",
     "category": "Jazz"
   },{
     "id": 19,
     "albumId": 1,
     "title": "19.mp3",
-    "artistName": "mbole",
+    "artistName": "ben adams",
     "category": "Pop"
   },
   {
     "id": 20,
     "albumId": 2,
     "title": "17.mp3",
-    "artistName": "mbole",
+    "artistName": "jaygles",
     "category": "Rock"
   },
   {
     "id": 21,
     "albumId": 2,
     "title": "21.mp3",
-    "artistName": "bikutsi",
+    "artistName": "leeona",
     "category": "Jazz"
   },{
     "id": 22,
     "albumId": 3,
     "title": "22.mp3",
-    "artistName": "Makossa",
+    "artistName": "leeona",
     "category": "Pop"
   },
   {
     "id": 23,
     "albumId": 1,
     "title": "23.mp3",
-    "artistName": "mbole",
+    "artistName": "square et saw",
     "category": "Rock"
   },
   {
     "id": 24,
     "albumId": 2,
     "title": "24.mp3",
-    "artistName": "bikutsi",
+    "artistName": "david devis",
     "category": "Jazz"
   },{
     "id": 25,
     "albumId": 4,
     "title": "25.mp3",
-    "artistName": "mbole",
+    "artistName": "diego nar",
     "category": "Pop"
   },
   {
     "id": 26,
     "albumId": 3,
     "title": "26.mp3",
-    "artistName": "Makossa",
+    "artistName": "martinez",
     "category": "Rock"
   },
   {
     "id": 27,
     "albumId": 2,
     "title": "27.mp3",
-    "artistName": "bikutsi",
+    "artistName": "crumbSnatchers",
     "category": "Jazz"
   },{
     "id": 28,
     "albumId": 1,
     "title": "28.mp3",
-    "artistName": "mbole",
+    "artistName": "soundStatus",
     "category": "Pop"
   },
   {
     "id": 29,
     "albumId": 3,
     "title": "29.mp3",
-    "artistName": "Makossa",
+    "artistName": "chaz robinson",
     "category": "Rock"
   },
   {
     "id": 30,
     "albumId": 2,
     "title": "30.mp3",
-    "artistName": "bikutsi",
+    "artistName": "Colaars",
     "category": "Jazz"
   }
 ]

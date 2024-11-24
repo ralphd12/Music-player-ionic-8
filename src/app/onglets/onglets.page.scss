@@ -3,5 +3,15 @@ ion-content{
  }
 ion-tab-button{
   --color-selected: rgb(53, 24, 212); /* Couleur du bouton actif */
-  --color: black; /* Couleur des boutons inactifs */
+  --color: white; /* Couleur des boutons inactifs */
+    --background: linear-gradient(to right, #3b5998, #192f6a);
+
 }
+ion-label{
+  color: white;
+}
+// ion-tab-button {
+//   --background: linear-gradient(to right, #3b5998, #192f6a);
+//   text-align: center;
+//   color: white;
+// }

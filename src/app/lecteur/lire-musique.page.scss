@@ -5,7 +5,8 @@ ion-content {
 
 /* Style pour la barre d'en-tête */
 ion-toolbar {
-  --background: #333;
+  --background: linear-gradient(to right, #3b5998, #192f6a);
+  color: white;
 }
 
 .center-title {

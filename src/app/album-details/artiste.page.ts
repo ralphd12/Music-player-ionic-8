@@ -63,7 +63,7 @@ export class ArtistePage implements OnInit  {
 
   onSearch() {
     this.filteredItems = this.Musiques.filter(item =>
-      item.title.toLowerCase().includes(this.searchText.toLowerCase())
+      item.artistName.toLowerCase().includes(this.searchText.toLowerCase())
     );
     console.log(this.filteredItems)
   }
