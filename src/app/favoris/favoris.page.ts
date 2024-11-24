@@ -21,9 +21,16 @@ export class FavorisPage implements OnInit {
   constructor(private favoritesService: FavoritesService) {}
 
   ngOnInit() {
+    console.log("bonjoutr")
     this.loadFavorites();  // Appeler la méthode pour charger les favoris lors de l'initialisation de la page
   }
+  favories:any;
   loadFavorites() {
+    const favori = localStorage.getItem('favoris');
+    if (favori) {
+      this.favories = JSON.parse(favori);
+      console.log(this.favories)
+    }
     const data: any[] = this.favoritesService.getFavorites(); // Récupérer directement les favoris
     this.favorites = data;  // Assurez-vous que 'data' contient les favoris
     console.log('Favoris chargés:', this.favorites);  // Afficher les données dans la console

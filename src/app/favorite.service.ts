@@ -18,6 +18,8 @@ export class FavoritesService {
   addFavorite(song: Musique) {
     if (!this.favorites.includes(song)) {
       this.favorites.push(song);
+      localStorage.setItem('favoris', JSON.stringify(song));
+
     }
   }
 

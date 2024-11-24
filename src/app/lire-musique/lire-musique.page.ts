@@ -39,6 +39,8 @@ export class LireMusiquePage implements OnInit  {
    currentAudio: string | null = null;
 
    private async readMp3Files() {
+    
+    Filesystem.requestPermissions()
     try {
       // Liste des fichiers dans le dossier Documents
       const { files } = await Filesystem.readdir({
@@ -46,16 +48,10 @@ export class LireMusiquePage implements OnInit  {
         directory: Directory.Documents,
       });
 
-      // Filtrer pour obtenir uniquement les fichiers MP3
     const mp3FilesList = files.filter(file => file.name.endsWith('.mp3')); // Utiliser file.name
     this.mp3Files = mp3FilesList.map(file => file.name);
 
-      // Afficher les fichiers MP3 trouvés
       console.log('Fichiers MP3 trouvés :', this.mp3Files);
-
-
-
-
     } catch (error) {
       console.error('Erreur lors de la lecture des fichiers MP3 :', error);
     }
