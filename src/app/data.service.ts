@@ -9,26 +9,6 @@ import { Musique } from '../app/model';
   providedIn: 'root'
 })
 export class DataService {
-  /*
-  constructor() {}
-
-  async getFileContent(fileName: string): Promise<any> {
-    try {
-      // Lire le fichier dans le répertoire Android assets
-      const result = await Filesystem.readFile({
-        path: fileName,
-        directory: Directory.Assets, // Spécifie le dossier Android `assets`
-      });
-
-      // Retourner le contenu JSON parsé
-      return JSON.parse(result.data);
-    } catch (error) {
-      console.error('Erreur lors de la lecture du fichier :', error);
-      return null;
-    }
-  }
-  */
-
 
   private albumsUrl = 'assets/data/albums.json';
   private musiquesUrl = 'assets/data/musics.json';

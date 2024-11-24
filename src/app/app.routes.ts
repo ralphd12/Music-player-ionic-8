@@ -25,7 +25,7 @@ export const routes: Routes = [
   },
   {
     path: 'lire-musique',
-    loadComponent: () => import('./lire-musique/lire-musique.page').then( m => m.LireMusiquePage)
+    loadComponent: () => import('./lecteur/lire-musique.page').then( m => m.LireMusiquePage)
   },
   {
     path: 'apropos',
@@ -33,7 +33,7 @@ export const routes: Routes = [
   },
   {
     path: 'artiste',
-    loadComponent: () => import('./artiste/artiste.page').then( m => m.ArtistePage)
+    loadComponent: () => import('./album-details/artiste.page').then( m => m.ArtistePage)
   },
   
 ];

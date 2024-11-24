@@ -24,18 +24,29 @@ export class ArtistePage implements OnInit  {
   filteredItems = this.Musiques;  // Liste filtrée à afficher
   favorites: Musique[] = [];
   constructor(private DataService: DataService,private router:Router,private favoritesService: FavoritesService) {
+    const storedFavorites = localStorage.getItem('favorites');
+    this.favorites = storedFavorites ? JSON.parse(storedFavorites) : [];
     this.favorites = this.favoritesService.getFavorites().map(fav => ({
       ...fav,
       category: 'favorite' // Ajouter la propriété manquante 'category' avec une valeur par défaut
     }));  // Récupérer les favoris et ajouter la propriété 'category' manquante
-    this.album=this.router.getCurrentNavigation()?.extras.state?.['album'];
+    // this.album = this.router.getCurrentNavigation()?.extras.state?.['album'] || {}; // Sélectionner l'élément actuel dans le state
+    const storedAlbum = localStorage.getItem('selectedAlbum'); // Récupérer l'album du localStorage
+    this.album = storedAlbum ? JSON.parse(storedAlbum) : {};
+    console.log(this.album)
     addIcons({heart,chevronBackOutline,chevronForwardOutline,add,heartOutline});
+   }
+   private saveFavoritesToLocalStorage() {
+    localStorage.setItem('favorites', JSON.stringify(this.favorites));
    }
    toggleFavorite(item: Musique) {
     if (this.favoritesService.isFavorite(item)) {
       this.favoritesService.removeFavorite(item);  // Retirer des favoris
+      this.favorites = this.favorites.filter(fav => fav.id !== item.id); // Mettre à jour le tableau des favoris
     } else {
       this.favoritesService.addFavorite(item);  // Ajouter aux favoris
+      this.favorites.push(item); // Ajouter l'élément au tableau des favoris
+      this.saveFavoritesToLocalStorage();  // Sauvegarder les favoris après modification
     }
   }
 
@@ -44,6 +55,7 @@ export class ArtistePage implements OnInit  {
   }
 
    ngOnInit() : void {
+    console.log("test")
     this.DataService.getMusiques().subscribe(data => {
       this.Musiques = data;
     });

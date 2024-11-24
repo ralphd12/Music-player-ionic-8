@@ -2,7 +2,7 @@
   <ion-toolbar>
     <ion-title class="center-title">{{ album.albumName }}</ion-title>
     <ion-buttons slot="start">
-      <ion-back-button></ion-back-button>
+      <ion-back-button defaultHref="onglets/albums"></ion-back-button>
     </ion-buttons>
   </ion-toolbar>
 </ion-header>
@@ -11,15 +11,15 @@
   
   <ion-list>
     @for(i of filteredItems;track $index){
-      <ion-item (click)="selectionMusique(i)">
-        <ion-thumbnail slot="start">
+      <ion-item>
+        <ion-thumbnail slot="start"  (click)="selectionMusique(i)">
           <img src="../../assets/icon/{{album.image}} " alt="">
         </ion-thumbnail>
         <ion-label>
           <h1>{{i.artistName}}</h1>
           <h3>{{i.title}}</h3>
         </ion-label>
-        <ion-icon slot="end" name="heart" (click)="toggleFavorite(i)" [color]="isFavorite(i) ? 'danger' : ''"></ion-icon>
+        <ion-icon slot="end" name="heart" (click)="toggleFavorite(i); $event.stopPropagation()" [color]="isFavorite(i) ? 'danger' : ''"></ion-icon>
       </ion-item>
     }
   </ion-list>

@@ -39,7 +39,6 @@ export class LireMusiquePage implements OnInit  {
    currentAudio: string | null = null;
 
    private async readMp3Files() {
-    
     Filesystem.requestPermissions()
     try {
       // Liste des fichiers dans le dossier Documents

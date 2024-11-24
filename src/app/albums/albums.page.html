@@ -7,7 +7,7 @@
 <ion-content>
   <!-- Liste des albums -->
   <ion-list>
-    @for(i of albums_application; track $index) {
+    @for(i of albums; track $index) {
     <ion-item (click)="selectionAlbum(i)">
       <!-- Miniature de l'album -->
       <ion-thumbnail slot="start">

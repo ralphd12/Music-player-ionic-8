@@ -20,6 +20,6 @@ export const children_routes: Routes =[
     },
     {
       path: 'artiste',
-      loadComponent: () => import('./artiste/artiste.page').then( m => m.ArtistePage)
+      loadComponent: () => import('./album-details/artiste.page').then( m => m.ArtistePage)
     }
 ]
